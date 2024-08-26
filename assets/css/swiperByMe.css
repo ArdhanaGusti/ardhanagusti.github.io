@@ -24,34 +24,6 @@
     color: #fff;
 }
 
-.swiper-slide:nth-child(1n) {
-    background-color: rgba(255, 2, 2, 0.658);
-}
-
-.swiper-slide:nth-child(2n) {
-    background-color: rgba(0, 255, 255, 0.658);
-}
-
-.swiper-slide:nth-child(3n) {
-    background-color: rgba(255, 2, 2, 0.658);
-}
-
-.swiper-slide:nth-child(4n) {
-    background-color: rgba(255, 2, 2, 0.658);
-}
-
-.swiper-slide:nth-child(5n) {
-    background-color: rgba(0, 255, 255, 0.658);
-}
-
-.swiper-slide:nth-child(6n) {
-    background-color: rgba(0, 255, 255, 0.658);
-}
-
-.swiper-slide:nth-child(7n) {
-    background-color: rgba(251, 255, 0, 0.658);
-}
-
-.swiper-slide:nth-child(8n) {
-    background-color: rgba(255, 2, 2, 0.658);
+.swiper-slide {
+    background-color: rgba(211, 215, 222, 0.658);
 }
