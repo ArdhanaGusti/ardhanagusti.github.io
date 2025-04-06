@@ -30,13 +30,14 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/custom.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.149.0/examples/jsm/"
+      }
+    }
+  </script>
 </head>
 
 <body class="index-page">
@@ -65,19 +66,22 @@
     <section id="hero" class="hero section light-background">
 
       <img src="assets/img/background.jpg" alt="">
+      <div id="globe-container"></div>
 
       <div class="container" data-aos="zoom-out">
         <div class="row justify-content-center">
           <div class="col-lg-9">
             <h2>M. Ardhana G. S.</h2>
             <p>I'm <span class="typed"
-                data-typed-items="Software Developer, IoT Engineer, Microcontroller Engineer">Software
-                Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+                data-typed-items="Software Developer, IoT Engineer, Microcontroller Engineer">Software Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
               <a href="mailto:syahputra.ardhana@gmail.com"><i class="bi bi-envelope-fill"></i></a>
               <a href="https://www.linkedin.com/in/muhammad-ardhana/" target="_blank"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
+          <!-- <div class="col-lg-3">
+            <div id="globe-container" style="width: 100%; height: 300px;"></div>
+          </div> -->
         </div>
       </div>
 
@@ -466,6 +470,8 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script type="module" src="assets/js/globe.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
