@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "company": "Tokopedia",
+    "logo": "/assets/companies/tokopedia.svg",
+    "role": {
+      "en": "Senior Frontend Engineer",
+      "id": "Senior Frontend Engineer"
+    },
+    "type": {
+      "en": "Full-time",
+      "id": "Penuh Waktu"
+    },
+    "duration": {
+      "start": "Jan 2022",
+      "end": null,
+      "current": true
+    },
+    "location": "Jakarta, Indonesia (Remote)",
+    "responsibilities": {
+      "en": [
+        "Led the development of a new design system adopted by 20+ teams across the organization",
+        "Improved page load performance by 40% through code splitting and lazy loading strategies",
+        "Mentored 3 junior developers and conducted weekly code review sessions",
+        "Collaborated with product and design teams to deliver high-quality user experiences"
+      ],
+      "id": [
+        "Memimpin pengembangan design system baru yang diadopsi oleh 20+ tim di organisasi",
+        "Meningkatkan performa halaman sebesar 40% melalui strategi code splitting dan lazy loading",
+        "Membimbing 3 developer junior dan mengadakan sesi code review mingguan",
+        "Berkolaborasi dengan tim produk dan desain untuk menghadirkan pengalaman pengguna berkualitas tinggi"
+      ]
+    },
+    "technologies": ["React", "TypeScript", "Next.js", "GraphQL", "Jest", "Storybook"]
+  },
+  {
+    "id": 2,
+    "company": "Gojek",
+    "logo": "/assets/companies/gojek.svg",
+    "role": {
+      "en": "Full Stack Developer",
+      "id": "Pengembang Full Stack"
+    },
+    "type": {
+      "en": "Full-time",
+      "id": "Penuh Waktu"
+    },
+    "duration": {
+      "start": "Mar 2020",
+      "end": "Dec 2021",
+      "current": false
+    },
+    "location": "Jakarta, Indonesia",
+    "responsibilities": {
+      "en": [
+        "Built and maintained microservices powering the driver-partner dashboard used by 2M+ users",
+        "Developed RESTful APIs with Node.js and integrated third-party payment gateways",
+        "Implemented real-time features using WebSockets for live order tracking",
+        "Participated in on-call rotations and incident response processes"
+      ],
+      "id": [
+        "Membangun dan memelihara microservices yang mendukung dashboard mitra pengemudi yang digunakan 2M+ pengguna",
+        "Mengembangkan RESTful API dengan Node.js dan mengintegrasikan payment gateway pihak ketiga",
+        "Mengimplementasikan fitur real-time menggunakan WebSocket untuk pelacakan pesanan langsung",
+        "Berpartisipasi dalam rotasi on-call dan proses respons insiden"
+      ]
+    },
+    "technologies": ["Vue.js", "Node.js", "Express", "PostgreSQL", "Redis", "Docker"]
+  },
+  {
+    "id": 3,
+    "company": "Bukalapak",
+    "logo": "/assets/companies/bukalapak.svg",
+    "role": {
+      "en": "Frontend Developer",
+      "id": "Pengembang Frontend"
+    },
+    "type": {
+      "en": "Full-time",
+      "id": "Penuh Waktu"
+    },
+    "duration": {
+      "start": "Jun 2018",
+      "end": "Feb 2020",
+      "current": false
+    },
+    "location": "Bandung, Indonesia",
+    "responsibilities": {
+      "en": [
+        "Developed and maintained e-commerce product listing and checkout flows",
+        "Implemented A/B testing framework reducing bounce rate by 15%",
+        "Created reusable component library improving development speed by 30%",
+        "Worked closely with UX designers to ensure pixel-perfect implementations"
+      ],
+      "id": [
+        "Mengembangkan dan memelihara alur listing produk dan checkout e-commerce",
+        "Mengimplementasikan framework A/B testing yang mengurangi bounce rate sebesar 15%",
+        "Membuat pustaka komponen yang dapat digunakan kembali, meningkatkan kecepatan pengembangan sebesar 30%",
+        "Bekerja sama erat dengan desainer UX untuk memastikan implementasi yang pixel-perfect"
+      ]
+    },
+    "technologies": ["React", "JavaScript", "SASS", "Webpack", "Jest", "Git"]
+  }
+]

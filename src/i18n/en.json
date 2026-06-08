@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "cta_work": "View My Work",
+    "cta_contact": "Get In Touch",
+    "cta_cv": "Download CV",
+    "scroll": "Scroll down"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know me better",
+    "bio_title": "Who I Am",
+    "contact_title": "Contact Info",
+    "skills_title": "Skills & Technologies",
+    "location": "Location",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "My professional journey",
+    "present": "Present",
+    "responsibilities": "Responsibilities",
+    "technologies": "Technologies"
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "My academic background",
+    "gpa": "GPA",
+    "achievements": "Achievements"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I've built",
+    "search_placeholder": "Search projects...",
+    "filter_all": "All",
+    "no_results": "No projects found",
+    "view_demo": "Live Demo",
+    "view_code": "Source Code",
+    "view_details": "View Details",
+    "status_completed": "Completed",
+    "status_in_progress": "In Progress",
+    "status_archived": "Archived",
+    "features": "Key Features",
+    "tech_stack": "Tech Stack",
+    "screenshots": "Screenshots",
+    "back": "Back to Projects"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's work together",
+    "name": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again.",
+    "name_placeholder": "Your full name",
+    "email_placeholder": "your@email.com",
+    "subject_placeholder": "What's this about?",
+    "message_placeholder": "Tell me about your project...",
+    "social_title": "Connect With Me"
+  },
+  "common": {
+    "loading": "Loading...",
+    "theme_light": "Light Mode",
+    "theme_dark": "Dark Mode",
+    "lang_en": "English",
+    "lang_id": "Indonesian",
+    "scroll_top": "Back to top",
+    "featured": "Featured",
+    "year": "Year",
+    "not_found": "Page Not Found",
+    "not_found_desc": "The page you're looking for doesn't exist.",
+    "go_home": "Go Home"
+  },
+  "footer": {
+    "built_with": "Built with",
+    "and": "and",
+    "rights": "All rights reserved."
+  }
+}

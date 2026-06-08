@@ -1,0 +1,130 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 28px;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 900px) {
+  .about__grid { grid-template-columns: 1fr; }
+}
+
+.about__bio {
+  padding: 36px;
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+@media (max-width: 640px) {
+  .about__bio { flex-direction: column; align-items: center; text-align: center; }
+}
+
+.about__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid var(--border);
+}
+
+.about__bio-name {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.about__bio-title {
+  font-size: 0.9375rem;
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: 16px;
+  font-family: var(--font-body);
+}
+
+.about__bio-desc {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about__sidebar { display: flex; flex-direction: column; gap: 20px; }
+
+.about__card-title {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 20px;
+}
+
+.about__contact-card { padding: 28px; }
+
+.about__contact-list { display: flex; flex-direction: column; gap: 16px; }
+
+.about__contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.about__contact-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-dim);
+  color: var(--accent);
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.about__contact-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  margin-bottom: 2px;
+}
+
+.about__contact-value {
+  font-size: 0.875rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.about__contact-link {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.about__contact-link:hover { color: var(--accent-dark); text-decoration: underline; }
+
+/* Skills */
+.about__skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.about__skill-group { padding: 24px; }
+
+.about__skill-category {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.about__skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

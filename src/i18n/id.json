@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "experience": "Pengalaman",
+    "education": "Pendidikan",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "greeting": "Halo, Saya",
+    "cta_work": "Lihat Karya Saya",
+    "cta_contact": "Hubungi Saya",
+    "cta_cv": "Unduh CV",
+    "scroll": "Gulir ke bawah"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Kenali saya lebih baik",
+    "bio_title": "Siapa Saya",
+    "contact_title": "Info Kontak",
+    "skills_title": "Keahlian & Teknologi",
+    "location": "Lokasi",
+    "email": "Email",
+    "phone": "Telepon",
+    "website": "Website"
+  },
+  "experience": {
+    "title": "Pengalaman Kerja",
+    "subtitle": "Perjalanan profesional saya",
+    "present": "Sekarang",
+    "responsibilities": "Tanggung Jawab",
+    "technologies": "Teknologi"
+  },
+  "education": {
+    "title": "Pendidikan",
+    "subtitle": "Latar belakang akademis saya",
+    "gpa": "IPK",
+    "achievements": "Prestasi"
+  },
+  "projects": {
+    "title": "Proyek",
+    "subtitle": "Hal-hal yang telah saya bangun",
+    "search_placeholder": "Cari proyek...",
+    "filter_all": "Semua",
+    "no_results": "Tidak ada proyek yang ditemukan",
+    "view_demo": "Demo Langsung",
+    "view_code": "Kode Sumber",
+    "view_details": "Lihat Detail",
+    "status_completed": "Selesai",
+    "status_in_progress": "Dalam Proses",
+    "status_archived": "Diarsipkan",
+    "features": "Fitur Utama",
+    "tech_stack": "Teknologi",
+    "screenshots": "Tangkapan Layar",
+    "back": "Kembali ke Proyek"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Mari bekerja sama",
+    "name": "Nama Lengkap",
+    "email": "Alamat Email",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "send": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success": "Pesan berhasil dikirim!",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "name_placeholder": "Nama lengkap Anda",
+    "email_placeholder": "anda@email.com",
+    "subject_placeholder": "Tentang apa ini?",
+    "message_placeholder": "Ceritakan tentang proyek Anda...",
+    "social_title": "Terhubung Dengan Saya"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "theme_light": "Mode Terang",
+    "theme_dark": "Mode Gelap",
+    "lang_en": "Inggris",
+    "lang_id": "Indonesia",
+    "scroll_top": "Kembali ke atas",
+    "featured": "Unggulan",
+    "year": "Tahun",
+    "not_found": "Halaman Tidak Ditemukan",
+    "not_found_desc": "Halaman yang Anda cari tidak ada.",
+    "go_home": "Ke Beranda"
+  },
+  "footer": {
+    "built_with": "Dibuat dengan",
+    "and": "dan",
+    "rights": "Hak cipta dilindungi undang-undang."
+  }
+}

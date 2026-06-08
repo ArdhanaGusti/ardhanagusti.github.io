@@ -1,0 +1,40 @@
+{
+  "name": "Muhammad Ardhana",
+  "title": {
+    "en": "Software Engineer",
+    "id": "Pengembang Perangkat Lunak"
+  },
+  "subtitle": {
+    "en": "Crafting digital experiences with precision and passion",
+    "id": "Menciptakan pengalaman digital dengan presisi dan passion"
+  },
+  "bio": {
+    "en": "I'm a passionate software engineer with 5+ years of experience building modern web applications. I love turning complex problems into elegant, user-friendly solutions. When I'm not coding, you'll find me exploring design trends, contributing to open source, or enjoying a good cup of coffee.",
+    "id": "Saya adalah pengembang perangkat lunak yang bersemangat dengan pengalaman 5+ tahun dalam membangun aplikasi web modern. Saya suka mengubah masalah kompleks menjadi solusi yang elegan dan ramah pengguna. Ketika tidak coding, saya menjelajahi tren desain, berkontribusi ke open source, atau menikmati secangkir kopi."
+  },
+  "location": "Bekasi, Indonesia",
+  "email": "syahputra.ardhana@gmail.com",
+  "phone": "+62 812-2142-4935",
+  "website": "https://aryankusuma.dev",
+  "github": "https://github.com/aryankusuma",
+  "linkedin": "https://linkedin.com/in/aryankusuma",
+  "twitter": "https://twitter.com/aryankusuma",
+  "instagram": "https://instagram.com/aryankusuma",
+  "tiktok": "https://tiktok.com/@aryankusuma",
+  "cvUrl": "/assets/aryan-kusuma-cv.pdf",
+  "avatar": "/assets/img/me.jpg",
+  "skills": {
+    "en": [
+      { "category": "Frontend", "items": ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Framer Motion"] },
+      { "category": "Backend", "items": ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB", "Redis"] },
+      { "category": "DevOps", "items": ["Docker", "AWS", "CI/CD", "Nginx", "Linux", "Git"] },
+      { "category": "Tools", "items": ["Figma", "Postman", "VS Code", "Jira", "Notion", "Slack"] }
+    ],
+    "id": [
+      { "category": "Frontend", "items": ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Framer Motion"] },
+      { "category": "Backend", "items": ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB", "Redis"] },
+      { "category": "DevOps", "items": ["Docker", "AWS", "CI/CD", "Nginx", "Linux", "Git"] },
+      { "category": "Alat", "items": ["Figma", "Postman", "VS Code", "Jira", "Notion", "Slack"] }
+    ]
+  }
+}

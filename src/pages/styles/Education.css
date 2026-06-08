@@ -1,0 +1,54 @@
+.edu-timeline { max-width: 800px; margin: 0 auto; }
+
+.timeline__dot--edu { background: var(--blue-dim); color: var(--blue); border-color: var(--blue); }
+
+.edu__header {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.edu__initials {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+.edu__institution {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+
+.edu__degree {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--blue);
+  font-family: var(--font-body);
+  margin-bottom: 10px;
+}
+
+.edu__description {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.edu__achievements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

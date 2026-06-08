@@ -1,0 +1,219 @@
+.detail__back { margin-bottom: 28px; }
+
+.detail__layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 28px;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .detail__layout { grid-template-columns: 1fr 320px; }
+}
+
+@media (max-width: 768px) {
+  .detail__layout {
+    grid-template-columns: 1fr;
+  }
+  .detail__sidebar { order: -1; }
+}
+
+.detail__main { display: flex; flex-direction: column; gap: 20px; }
+
+.detail__screenshots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.detail__screenshot {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  aspect-ratio: 16/10;
+  background: var(--bg-subtle);
+}
+
+.detail__screenshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.detail__screenshot:hover img { transform: scale(1.03); }
+
+.detail__screenshot-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.detail__screenshot:hover .detail__screenshot-overlay { opacity: 1; }
+
+.detail__desc-card { padding: 28px; }
+
+.detail__description {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+.detail__card { padding: 24px; }
+
+.detail__card-title {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 16px;
+}
+
+.detail__features { display: flex; flex-direction: column; gap: 10px; }
+
+.detail__feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+}
+
+.detail__feature-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--green-dim);
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.detail__tech-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Sidebar */
+.detail__sidebar { display: flex; flex-direction: column; gap: 20px; }
+
+.detail__meta-card { padding: 28px; }
+
+.detail__title {
+  font-size: 1.625rem;
+  margin-bottom: 10px;
+}
+
+.detail__short-desc {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.detail__meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+
+.detail__meta-item { display: flex; justify-content: space-between; align-items: center; }
+
+.detail__meta-label {
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+}
+
+.detail__meta-value {
+  font-size: 0.875rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.detail__links { display: flex; gap: 10px; }
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.92);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  transition: background var(--transition);
+}
+
+.lightbox__close:hover { background: rgba(255,255,255,0.3); }
+
+.lightbox__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  transition: background var(--transition);
+}
+
+.lightbox__nav:hover { background: rgba(255,255,255,0.3); }
+.lightbox__nav--prev { left: 20px; }
+.lightbox__nav--next { right: 20px; }
+
+.lightbox__img-wrap {
+  max-width: min(900px, 90vw);
+  position: relative;
+}
+
+.lightbox__img-wrap img {
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+.lightbox__counter {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.6);
+}

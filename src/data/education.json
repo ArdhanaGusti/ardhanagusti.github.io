@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "institution": "Institut Teknologi Bandung",
+    "institutionShort": "ITB",
+    "logo": "/assets/schools/itb.svg",
+    "degree": {
+      "en": "Bachelor of Engineering, Informatics",
+      "id": "Sarjana Teknik, Informatika"
+    },
+    "duration": {
+      "start": "2014",
+      "end": "2018"
+    },
+    "gpa": "3.82 / 4.00",
+    "location": "Bandung, Indonesia",
+    "description": {
+      "en": "Graduated with honors. Focused on software engineering, algorithms, and distributed systems. Thesis on 'Optimizing Real-Time Data Processing in Distributed Systems Using Apache Kafka.'",
+      "id": "Lulus dengan predikat cumlaude. Berfokus pada rekayasa perangkat lunak, algoritma, dan sistem terdistribusi. Tesis tentang 'Optimasi Pemrosesan Data Real-Time dalam Sistem Terdistribusi Menggunakan Apache Kafka.'"
+    },
+    "achievements": {
+      "en": ["Dean's List (4 semesters)", "Best Thesis Award 2018", "Competitive Programming Club Lead"],
+      "id": ["Dean's List (4 semester)", "Penghargaan Tesis Terbaik 2018", "Ketua Klub Competitive Programming"]
+    }
+  },
+  {
+    "id": 2,
+    "institution": "SMA Negeri 3 Bandung",
+    "institutionShort": "SMAN 3",
+    "logo": "/assets/schools/sman3.svg",
+    "degree": {
+      "en": "High School Diploma, Science",
+      "id": "SMA, Jurusan IPA"
+    },
+    "duration": {
+      "start": "2011",
+      "end": "2014"
+    },
+    "gpa": null,
+    "location": "Bandung, Indonesia",
+    "description": {
+      "en": "Graduated with distinction. Active in mathematics and science olympiads. Developed first web project during senior year.",
+      "id": "Lulus dengan pujian. Aktif dalam olimpiade matematika dan sains. Mengembangkan proyek web pertama di kelas akhir."
+    },
+    "achievements": {
+      "en": ["National Mathematics Olympiad Finalist", "Student Council Secretary", "Best Student Award"],
+      "id": ["Finalis Olimpiade Matematika Nasional", "Sekretaris OSIS", "Penghargaan Siswa Terbaik"]
+    }
+  }
+]
