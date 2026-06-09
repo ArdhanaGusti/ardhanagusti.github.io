@@ -1,4 +1,4 @@
-# Aryan Kusuma – Portfolio Website
+# Muhammad Ardhana – Portfolio Website
 
 A modern, elegant portfolio website built with React.js (TypeScript).
 
