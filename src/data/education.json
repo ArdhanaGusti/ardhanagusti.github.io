@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "institution": "Institut Teknologi Bandung",
-    "institutionShort": "ITB",
-    "logo": "/assets/schools/itb.svg",
+    "institution": "Universitas Sebelas Maret",
+    "institutionShort": "UNS",
+    "logo": "/assets/uni/uns.png",
     "degree": {
-      "en": "Bachelor of Engineering, Informatics",
-      "id": "Sarjana Teknik, Informatika"
+      "en": "Bachelor of Engineering, Electric Engineering",
+      "id": "Sarjana Teknik, Teknik Elektro"
     },
     "duration": {
-      "start": "2014",
-      "end": "2018"
+      "start": "2019",
+      "end": "2023"
     },
-    "gpa": "3.82 / 4.00",
-    "location": "Bandung, Indonesia",
+    "gpa": "3.74 / 4.00",
+    "location": "Surakarta, Indonesia",
     "description": {
-      "en": "Graduated with honors. Focused on software engineering, algorithms, and distributed systems. Thesis on 'Optimizing Real-Time Data Processing in Distributed Systems Using Apache Kafka.'",
-      "id": "Lulus dengan predikat cumlaude. Berfokus pada rekayasa perangkat lunak, algoritma, dan sistem terdistribusi. Tesis tentang 'Optimasi Pemrosesan Data Real-Time dalam Sistem Terdistribusi Menggunakan Apache Kafka.'"
+      "en": "Graduated with honors. Focused on software engineering, algorithms, and distributed systems. Thesis on 'Further Development of the Outcome-Based Education Information System at the Faculty of Engineering, UNS.'",
+      "id": "Lulus dengan predikat cumlaude. Berfokus pada rekayasa perangkat lunak, algoritma, dan sistem terdistribusi. Skripsi tentang 'Pengembangan Lanjut Sistem Informasi Outcome Based Education pada Fakultas Teknik UNS.'"
     },
     "achievements": {
-      "en": ["Dean's List (4 semesters)", "Best Thesis Award 2018", "Competitive Programming Club Lead"],
-      "id": ["Dean's List (4 semester)", "Penghargaan Tesis Terbaik 2018", "Ketua Klub Competitive Programming"]
+      "en": ["Youngest graduate of graduation in July 2023 period", "Finished more than 10+ dicoding class", "1St Winner of Mechanical Online Competition", "3rd champion at Lograk Competition", "Top 5 Finalist on Impulse ITB"],
+      "id": ["Lulusan termuda pada wisuda periode Juli 2023", "Menyelesaikan lebih dari 10+ kelas dicoding", "Juara 1 Mechanical Online Competition", "Juara 3 di Lograk Competition", "Top 5 Finalis di Impulse ITB"]
     }
   },
   {
     "id": 2,
-    "institution": "SMA Negeri 3 Bandung",
-    "institutionShort": "SMAN 3",
-    "logo": "/assets/schools/sman3.svg",
+    "institution": "SMA Negeri 2 Tambun Selatan",
+    "institutionShort": "SMAN 2",
+    "logo": "/assets/schools/sman2.svg",
     "degree": {
-      "en": "High School Diploma, Science",
+      "en": "High School, Science",
       "id": "SMA, Jurusan IPA"
     },
     "duration": {
-      "start": "2011",
-      "end": "2014"
+      "start": "2017",
+      "end": "2019"
     },
-    "gpa": null,
-    "location": "Bandung, Indonesia",
+    "gpa": "32.5 / 40.0",
+    "location": "Bekasi, Indonesia",
     "description": {
-      "en": "Graduated with distinction. Active in mathematics and science olympiads. Developed first web project during senior year.",
-      "id": "Lulus dengan pujian. Aktif dalam olimpiade matematika dan sains. Mengembangkan proyek web pertama di kelas akhir."
+      "en": "Graduated in 2nd year. Active in mathematics olympiads. Participated in OSN (IT category).",
+      "id": "Lulus pada tahun ke-2. Aktif dalam olimpiade matematika. Berpartisipasi dalam OSN (kategori TI)."
     },
     "achievements": {
-      "en": ["National Mathematics Olympiad Finalist", "Student Council Secretary", "Best Student Award"],
-      "id": ["Finalis Olimpiade Matematika Nasional", "Sekretaris OSIS", "Penghargaan Siswa Terbaik"]
+      "en": ["Science Olympiad National Finalist", "Participated in photography and design club"],
+      "id": ["Finalis Olimpiade Sains Nasional", "Berpartisipasi dalam klub fotografi dan desain"]
     }
   }
 ]

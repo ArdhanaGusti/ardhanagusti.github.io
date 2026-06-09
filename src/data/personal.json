@@ -16,25 +16,25 @@
   "email": "syahputra.ardhana@gmail.com",
   "phone": "+62 812-2142-4935",
   "website": "https://aryankusuma.dev",
-  "github": "https://github.com/aryankusuma",
-  "linkedin": "https://linkedin.com/in/aryankusuma",
+  "github": "https://github.com/ardhanagusti",
+  "linkedin": "https://linkedin.com/in/muhammad-ardhana",
   "twitter": "https://twitter.com/aryankusuma",
-  "instagram": "https://instagram.com/aryankusuma",
-  "tiktok": "https://tiktok.com/@aryankusuma",
-  "cvUrl": "/assets/aryan-kusuma-cv.pdf",
+  "instagram": "https://instagram.com/ardhanagustis",
+  "tiktok": "https://tiktok.com/@ardhanagustis",
+  "cvUrl": "/assets/file/resume.pdf",
   "avatar": "/assets/img/me.jpg",
   "skills": {
     "en": [
-      { "category": "Frontend", "items": ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Framer Motion"] },
-      { "category": "Backend", "items": ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB", "Redis"] },
-      { "category": "DevOps", "items": ["Docker", "AWS", "CI/CD", "Nginx", "Linux", "Git"] },
-      { "category": "Tools", "items": ["Figma", "Postman", "VS Code", "Jira", "Notion", "Slack"] }
+      { "category": "Frontend", "items": ["React", "Vue", "Flutter", "TypeScript", "Next.js", "Tailwind CSS", "Bootstrap"] },
+      { "category": "Backend", "items": [".Net", "PHP", "Python", "Node.js", "Laravel", "Flask", "NestJS", "PostgreSQL", "MongoDB", "SQL Server", "Mysql", "Redis"] },
+      { "category": "DevOps", "items": ["Docker", "AWS", "CI/CD", "Nginx", "Git"] },
+      { "category": "Tools", "items": ["Figma", "Postman", "VS Code", "Jira", "Trello"] }
     ],
     "id": [
-      { "category": "Frontend", "items": ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Framer Motion"] },
-      { "category": "Backend", "items": ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB", "Redis"] },
-      { "category": "DevOps", "items": ["Docker", "AWS", "CI/CD", "Nginx", "Linux", "Git"] },
-      { "category": "Alat", "items": ["Figma", "Postman", "VS Code", "Jira", "Notion", "Slack"] }
+      { "category": "Frontend", "items": ["React", "Vue", "Flutter", "TypeScript", "Next.js", "Tailwind CSS", "Bootstrap"] },
+      { "category": "Backend", "items": [".Net", "PHP", "Python", "Node.js", "Laravel", "Flask", "NestJS", "PostgreSQL", "MongoDB", "SQL Server", "Mysql", "Redis"] },
+      { "category": "DevOps", "items": ["Docker", "AWS", "CI/CD", "Nginx", "Git"] },
+      { "category": "Tools", "items": ["Figma", "Postman", "VS Code", "Jira", "Trello"] }
     ]
   }
 }

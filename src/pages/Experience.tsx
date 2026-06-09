@@ -17,8 +17,8 @@ const Experience: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Experience – Aryan Kusuma</title>
-        <meta name="description" content="Work experience and professional background of Aryan Kusuma" />
+        <title>Experience – Muhammad Ardhana</title>
+        <meta name="description" content="Work experience and professional background of Muhammad Ardhana" />
       </Helmet>
 
       <main className="exp-page section" style={{ paddingTop: '120px' }}>

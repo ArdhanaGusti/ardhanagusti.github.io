@@ -131,7 +131,7 @@ const Home: React.FC = () => {
               <h2 className="section-title">{lang === 'en' ? 'Core Technologies' : 'Teknologi Utama'}</h2>
             </div>
             <div className="skills-preview__tags">
-              {['React', 'TypeScript', 'Node.js', 'Next.js', 'PostgreSQL', 'Docker', 'AWS', 'GraphQL', 'Redis', 'Figma'].map((skill, i) => (
+              {['.Net', 'Node.js', 'PHP', 'Flutter', 'React', 'Docker', 'AWS', 'Redis', 'Figma'].map((skill, i) => (
                 <motion.span key={skill} className="tag"
                   initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }} transition={{ delay: i * 0.05 }}>

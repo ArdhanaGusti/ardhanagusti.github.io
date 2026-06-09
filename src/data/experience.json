@@ -1,104 +1,202 @@
 [
   {
     "id": 1,
-    "company": "Tokopedia",
-    "logo": "/assets/companies/tokopedia.svg",
+    "company": "Epson Indonesia",
+    "logo": "/assets/companies/epson.png",
     "role": {
-      "en": "Senior Frontend Engineer",
-      "id": "Senior Frontend Engineer"
+      "en": "Software Engineer & Business Analyst",
+      "id": "Insinyur Perangkat Lunak & Analis Bisnis"
     },
     "type": {
       "en": "Full-time",
       "id": "Penuh Waktu"
     },
     "duration": {
-      "start": "Jan 2022",
+      "start": "Oct 2022",
       "end": null,
       "current": true
     },
-    "location": "Jakarta, Indonesia (Remote)",
+    "location": "Bekasi, Indonesia",
     "responsibilities": {
       "en": [
-        "Led the development of a new design system adopted by 20+ teams across the organization",
-        "Improved page load performance by 40% through code splitting and lazy loading strategies",
-        "Mentored 3 junior developers and conducted weekly code review sessions",
-        "Collaborated with product and design teams to deliver high-quality user experiences"
+        "Led the development of a procurement system that reduced operational manpower requirements by 24 man-days per day",
+        "Implemented RPA-driven automation initiatives that delivered recurring cost savings of USD 240 per day",
+        "Successfully delivered and deployed a cost control system one month ahead of the project deadline",
+        "Developed SSRS-based reporting solutions for mold operations, reducing manual workload by 3 man-days per day",
+        "Partnered with customs authorities to implement an automated parts verification system, achieving annual savings of over USD 1 million"
       ],
       "id": [
-        "Memimpin pengembangan design system baru yang diadopsi oleh 20+ tim di organisasi",
-        "Meningkatkan performa halaman sebesar 40% melalui strategi code splitting dan lazy loading",
-        "Membimbing 3 developer junior dan mengadakan sesi code review mingguan",
-        "Berkolaborasi dengan tim produk dan desain untuk menghadirkan pengalaman pengguna berkualitas tinggi"
+        "Memimpin pengembangan sistem procurement yang mengurangi kebutuhan tenaga kerja sebanyak 24 orang per hari",
+        "Menerapkan otomatisasi berbasis RPA yang menghasilkan penghematan biaya sebesar USD 240 per hari",
+        "Berhasil menyelesaikan dan menerapkan sistem pengendalian biaya satu bulan sebelum deadline project",
+        "Mengembangkan solusi pelaporan berbasis SSRS untuk divisi mold, mengurangi beban kerja manual sebanyak 3 orang per hari",
+        "Bermitra dengan otoritas bea cukai untuk menerapkan sistem verifikasi suku cadang secara otomatis, mencapai penghematan tahunan lebih dari USD 1 juta"
       ]
     },
-    "technologies": ["React", "TypeScript", "Next.js", "GraphQL", "Jest", "Storybook"]
+    "technologies": [
+      ".Net",
+      "React",
+      "SQL Server",
+      "Telerik",
+      "Kendo",
+      "Vite",
+      "Gitlab",
+      "Gmail",
+      "CI/CD",
+      "Docker"
+    ]
   },
   {
     "id": 2,
-    "company": "Gojek",
-    "logo": "/assets/companies/gojek.svg",
+    "company": "Dana Purna Investama",
+    "logo": "/assets/companies/dpi.png",
     "role": {
       "en": "Full Stack Developer",
       "id": "Pengembang Full Stack"
     },
     "type": {
-      "en": "Full-time",
-      "id": "Penuh Waktu"
+      "en": "Contract",
+      "id": "Kontrak"
     },
     "duration": {
-      "start": "Mar 2020",
-      "end": "Dec 2021",
+      "start": "Jul 2023",
+      "end": "Sep 2023",
       "current": false
     },
     "location": "Jakarta, Indonesia",
     "responsibilities": {
       "en": [
-        "Built and maintained microservices powering the driver-partner dashboard used by 2M+ users",
-        "Developed RESTful APIs with Node.js and integrated third-party payment gateways",
-        "Implemented real-time features using WebSockets for live order tracking",
-        "Participated in on-call rotations and incident response processes"
+        "Led the development of an employee absenteeism management system that automated attendance tracking and reporting, reducing administrative workload by 2–3 man-days per day",
+        "Designed and implemented an automated survey reporting platform that eliminated manual report generation, saving 15 person-hours daily across a team of five employees"
       ],
       "id": [
-        "Membangun dan memelihara microservices yang mendukung dashboard mitra pengemudi yang digunakan 2M+ pengguna",
-        "Mengembangkan RESTful API dengan Node.js dan mengintegrasikan payment gateway pihak ketiga",
-        "Mengimplementasikan fitur real-time menggunakan WebSocket untuk pelacakan pesanan langsung",
-        "Berpartisipasi dalam rotasi on-call dan proses respons insiden"
+        "Memimpin pengembangan sistem manajemen absen karyawan yang mengotomatiskan pelacakan dan pelaporan, mengurangi beban kerja administratif sebanyak 2–3 hari kerja per hari",
+        "Merancang dan mengimplementasikan platform pelaporan survei otomatis yang menggantikan pembuatan laporan manual, menghemat 15 jam kerja per hari di seluruh tim yang terdiri dari lima karyawan"
       ]
     },
-    "technologies": ["Vue.js", "Node.js", "Express", "PostgreSQL", "Redis", "Docker"]
+    "technologies": [
+      "Laravel",
+      "React",
+      "Gitlab",
+      "Gmail",
+      "MySQL"
+    ]
   },
   {
     "id": 3,
-    "company": "Bukalapak",
-    "logo": "/assets/companies/bukalapak.svg",
+    "company": "Cuan.ku",
+    "logo": "/assets/companies/cuanku.png",
     "role": {
-      "en": "Frontend Developer",
-      "id": "Pengembang Frontend"
+      "en": "Fullstack Mobile Developer",
+      "id": "Pengembang Fullstack Mobile"
     },
     "type": {
-      "en": "Full-time",
-      "id": "Penuh Waktu"
+      "en": "Freelance",
+      "id": "Pekerja Lepas"
     },
     "duration": {
-      "start": "Jun 2018",
-      "end": "Feb 2020",
+      "start": "Nov 2022",
+      "end": "Mar 2023",
       "current": false
     },
-    "location": "Bandung, Indonesia",
+    "location": "Surakarta, Indonesia",
     "responsibilities": {
       "en": [
-        "Developed and maintained e-commerce product listing and checkout flows",
-        "Implemented A/B testing framework reducing bounce rate by 15%",
-        "Created reusable component library improving development speed by 30%",
-        "Worked closely with UX designers to ensure pixel-perfect implementations"
+        "Led the development of an online appointment booking platform that streamlined psychologist scheduling and served over 100+ active users",
+        "Designed and implemented responsive mobile interfaces, improving usability and delivering a seamless experience across multiple device types",
+        "Developed deep-linking and automatic app redirection functionality, enabling users to transition directly from web pages to the mobile application when installed, enhancing user engagement and accessibility"
       ],
       "id": [
-        "Mengembangkan dan memelihara alur listing produk dan checkout e-commerce",
-        "Mengimplementasikan framework A/B testing yang mengurangi bounce rate sebesar 15%",
-        "Membuat pustaka komponen yang dapat digunakan kembali, meningkatkan kecepatan pengembangan sebesar 30%",
-        "Bekerja sama erat dengan desainer UX untuk memastikan implementasi yang pixel-perfect"
+        "Memimpin pengembangan platform pemesanan janji temu online yang memudahkan penjadwalan psikolog dan melayani lebih dari 100 pengguna aktif",
+        "Merancang dan mengimplementasikan interface yang responsif, meningkatkan fitur dan memberikan pengalaman yang mulus di berbagai jenis perangkat",
+        "Mengembangkan fungsi deep-linking dan pengalihan aplikasi otomatis, memungkinkan pengguna untuk beralih langsung dari halaman web ke aplikasi seluler saat diinstal, meningkatkan keterlibatan pengguna dan aksesibilitas"
       ]
     },
-    "technologies": ["React", "JavaScript", "SASS", "Webpack", "Jest", "Git"]
+    "technologies": [
+      "Laravel",
+      "Flutter",
+      "MySQL",
+      "Google Maps",
+      "Deep Linking",
+      "Github"
+    ]
+  },
+  {
+    "id": 4,
+    "company": "Kayaba",
+    "logo": "/assets/companies/kyb.png",
+    "role": {
+      "en": "Maintenance Engineer Trainee",
+      "id": "Magang Insinyur Pemeliharaan"
+    },
+    "type": {
+      "en": "Internship",
+      "id": "Magang"
+    },
+    "duration": {
+      "start": "Jan 2022",
+      "end": "Feb 2022",
+      "current": false
+    },
+    "location": "Bekasi, Indonesia",
+    "responsibilities": {
+      "en": [
+        "Designed and implemented an IoT-based real-time part monitoring system, improving operational visibility and enabling proactive issue detection",
+        "Developed an automated remote part delivery system for defective components, reducing response time and saving approximately 3 hours of manual effort per day"
+      ],
+      "id": [
+        "Merancang dan mengimplementasikan sistem pemantauan suku cadang secara real-time berbasis IoT, meningkatkan visibilitas operasional dan memungkinkan deteksi masalah secara proaktif",
+        "Mengembangkan sistem pengiriman suku cadang secara otomatis untuk komponen yang rusak, mengurangi waktu respons dan menghemat sekitar 3 jam kerja manual per hari"
+      ]
+    },
+    "technologies": [
+      "Laravel",
+      "Livewire",
+      "MySQL",
+      "ChartJS",
+      "PLC",
+      "IoT"
+    ]
+  },
+  {
+    "id": 5,
+    "company": "Universitas Sebelas Maret",
+    "logo": "/assets/companies/uns.png",
+    "role": {
+      "en": "Software Developer Trainee",
+      "id": "Magang Pengembang Perangkat Lunak"
+    },
+    "type": {
+      "en": "Internship",
+      "id": "Magang"
+    },
+    "duration": {
+      "start": "Jan 2022",
+      "end": "Dec 2022",
+      "current": false
+    },
+    "location": "Surakarta, Indonesia",
+    "responsibilities": {
+      "en": [
+        "Collaborated with internal development teams to design and deliver an online education management system serving more than 3,000 students and staff members",
+        "Integrated enterprise web applications with the organization's Single Sign-On (SSO) platform, streamlining user management, simplifying data integration, and reducing operational costs by approximately USD 200 per month",
+        "Developed an online booking system used by over 1,000 staff members, automating scheduling processes and reducing administrative workload by 2 man-days per day"
+      ],
+      "id": [
+        "Berkolaborasi dengan tim pengembangan internal untuk merancang dan menghadirkan sistem manajemen pendidikan daring yang melayani lebih dari 3.000 siswa dan staf",
+        "Mengintegrasikan aplikasi web perusahaan dengan platform Single Sign-On (SSO) organisasi, menyederhanakan manajemen pengguna, menyederhanakan integrasi data, dan mengurangi biaya operasional sekitar USD 200 per bulan",
+        "Mengembangkan sistem pemesanan daring yang digunakan oleh lebih dari 1.000 staf, mengotomatiskan proses penjadwalan dan mengurangi beban kerja administratif sebanyak 2 hari kerja per hari"
+      ]
+    },
+    "technologies": [
+      "Laravel",
+      "Golang",
+      "Livewire",
+      "Gitlab",
+      "Saml2",
+      "Gmail",
+      "MySQL",
+      "SSO"
+    ]
   }
 ]

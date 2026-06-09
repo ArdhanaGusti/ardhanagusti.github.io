@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { Send, Mail, MapPin, Phone, CheckCircle, AlertCircle } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, TwitterIcon, InstagramIcon } from '../components/common/SocialIcons';
+import { GithubIcon, LinkedinIcon, TiktokIcon, InstagramIcon } from '../components/common/SocialIcons';
 import personalData from '../data/personal.json';
 import AnimatedSection from '../components/common/AnimatedSection';
 import './styles/Contact.css';
@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
   const socials = [
     { href: personalData.github, icon: <GithubIcon size={20} />, label: 'GitHub' },
     { href: personalData.linkedin, icon: <LinkedinIcon size={20} />, label: 'LinkedIn' },
-    { href: personalData.twitter, icon: <TwitterIcon size={20} />, label: 'Twitter' },
+    { href: personalData.tiktok, icon: <TiktokIcon size={20} />, label: 'TikTok' },
     { href: personalData.instagram, icon: <InstagramIcon size={20} />, label: 'Instagram' },
   ];
 
