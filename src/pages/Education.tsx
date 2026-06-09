@@ -17,8 +17,8 @@ const Education: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Education – Aryan Kusuma</title>
-        <meta name="description" content="Educational background of Aryan Kusuma" />
+        <title>Education – Muhammad Ardhana</title>
+        <meta name="description" content="Educational background of Muhammad Ardhana" />
       </Helmet>
 
       <main className="edu-page section" style={{ paddingTop: '120px' }}>

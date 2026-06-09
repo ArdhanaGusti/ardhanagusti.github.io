@@ -50,8 +50,8 @@ const Projects: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Projects – Aryan Kusuma</title>
-        <meta name="description" content="Portfolio projects built by Aryan Kusuma" />
+        <title>Projects – Muhammad Ardhana</title>
+        <meta name="description" content="Portfolio projects built by Muhammad Ardhana" />
       </Helmet>
 
       <main className="projects-page section" style={{ paddingTop: '120px' }}>

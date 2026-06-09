@@ -47,8 +47,8 @@ const Contact: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Contact – Aryan Kusuma</title>
-        <meta name="description" content="Get in touch with Aryan Kusuma" />
+        <title>Contact – Muhammad Ardhana</title>
+        <meta name="description" content="Get in touch with Muhammad Ardhana" />
       </Helmet>
 
       <main className="contact-page section" style={{ paddingTop: '120px' }}>
