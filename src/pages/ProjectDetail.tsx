@@ -28,7 +28,7 @@ const ProjectDetail: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>{project.title} – Aryan Kusuma</title>
+        <title>{project.title} – Muhammad Ardhana</title>
         <meta name="description" content={project.shortDesc[lang]} />
       </Helmet>
 
@@ -139,10 +139,12 @@ const ProjectDetail: React.FC = () => {
                     <GithubIcon size={16} />
                     {t('projects.view_code')}
                   </a>
-                  <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ flex: 1 }}>
-                    <ExternalLink size={16} />
-                    {t('projects.view_demo')}
-                  </a>
+                  {project.demoUrl && (
+                    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ flex: 1 }}>
+                      <ExternalLink size={16} />
+                      {t('projects.view_demo')}
+                    </a>
+                  )}
                 </div>
               </div>
 

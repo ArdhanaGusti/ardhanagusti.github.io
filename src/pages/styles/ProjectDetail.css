@@ -207,6 +207,8 @@
 .lightbox__img-wrap img {
   width: 100%;
   border-radius: var(--radius);
+  /* max-height: 90vh; */
+  /* object-fit: contain; */
 }
 
 .lightbox__counter {

@@ -1,50 +1,53 @@
 [
   {
-    "id": "taskflow-pro",
-    "title": "TaskFlow Pro",
+    "id": "whatsapp-clone",
+    "title": "WhatsApp Clone",
     "shortDesc": {
-      "en": "A collaborative project management tool with real-time sync",
-      "id": "Alat manajemen proyek kolaboratif dengan sinkronisasi real-time"
+      "en": "Real-time chat application with rooms and file sharing",
+      "id": "Aplikasi chat real-time dengan ruangan dan berbagi file"
     },
     "description": {
-      "en": "TaskFlow Pro is a full-featured project management application built for modern teams. It features drag-and-drop kanban boards, real-time collaboration, time tracking, and comprehensive reporting dashboards.",
-      "id": "TaskFlow Pro adalah aplikasi manajemen proyek lengkap yang dibangun untuk tim modern. Fiturnya mencakup kanban board drag-and-drop, kolaborasi real-time, pelacakan waktu, dan dasbor pelaporan komprehensif."
+      "en": "WhatsApp Clone is a real-time messaging platform supporting public and private rooms, direct messages, file sharing, and emoji reactions. Built with Socket.io for instant message delivery.",
+      "id": "WhatsApp Clone adalah platform pesan real-time yang mendukung ruangan publik dan privat, pesan langsung, berbagi file, dan reaksi emoji. Dibangun dengan Socket.io untuk pengiriman pesan instan."
     },
-    "category": ["Web App", "Full Stack"],
-    "thumbnail": "/assets/projects/taskflow-thumb.jpg",
-    "screenshots": [
-      "/assets/projects/taskflow-1.jpg",
-      "/assets/projects/taskflow-2.jpg",
-      "/assets/projects/taskflow-3.jpg"
+    "category": [
+      "Mobile App",
+      "Full Stack"
     ],
-    "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Socket.io", "Redis", "Docker"],
+    "thumbnail": "/assets/projects/wa_clone.png",
+    "screenshots": [
+      "/assets/projects/wa_1.png",
+      "/assets/projects/wa_2.png",
+      "/assets/projects/wa_3.png"
+    ],
+    "technologies": [
+      "Go",
+      "Flutter",
+      "Socket.io",
+      "MySQL",
+      "JWT"
+    ],
     "features": {
       "en": [
-        "Real-time collaboration with WebSocket",
-        "Drag-and-drop Kanban boards",
-        "Time tracking and reporting",
-        "Team permissions and roles",
-        "Dark/Light mode",
-        "Mobile responsive"
+        "Real-time messaging",
+        "Public and private rooms",
+        "Emoji reactions"
       ],
       "id": [
-        "Kolaborasi real-time dengan WebSocket",
-        "Kanban board drag-and-drop",
-        "Pelacakan waktu dan pelaporan",
-        "Izin dan peran tim",
-        "Mode Gelap/Terang",
-        "Responsif mobile"
+        "Pesan real-time",
+        "Ruangan publik dan privat",
+        "Reaksi emoji"
       ]
     },
-    "githubUrl": "https://github.com/aryankusuma/taskflow-pro",
-    "demoUrl": "https://taskflow-pro.vercel.app",
+    "githubUrl": "https://github.com/ardhanagusti/whatsapp-clone",
+    "demoUrl": null,
     "status": "completed",
-    "year": 2023,
-    "featured": true
+    "year": 2024,
+    "featured": false
   },
   {
-    "id": "shopwave",
-    "title": "ShopWave",
+    "id": "school-management-system",
+    "title": "School Management System",
     "shortDesc": {
       "en": "Modern e-commerce platform with AI-powered recommendations",
       "id": "Platform e-commerce modern dengan rekomendasi bertenaga AI"
@@ -53,13 +56,24 @@
       "en": "ShopWave is a scalable e-commerce solution featuring AI-driven product recommendations, advanced search, and a streamlined checkout experience. Built with performance and conversion optimization in mind.",
       "id": "ShopWave adalah solusi e-commerce yang skalabel dengan rekomendasi produk berbasis AI, pencarian canggih, dan pengalaman checkout yang efisien. Dibangun dengan mempertimbangkan performa dan optimasi konversi."
     },
-    "category": ["Web App", "E-commerce"],
-    "thumbnail": "/assets/projects/shopwave-thumb.jpg",
-    "screenshots": [
-      "/assets/projects/shopwave-1.jpg",
-      "/assets/projects/shopwave-2.jpg"
+    "category": [
+      "Web App",
+      "E-commerce"
     ],
-    "technologies": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Cloudinary"],
+    "thumbnail": "/assets/projects/sms.webp",
+    "screenshots": [
+      "/assets/projects/sms.webp",
+      "/assets/projects/sms_1.webp",
+      "/assets/projects/sms_2.webp"
+    ],
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe",
+      "Cloudinary"
+    ],
     "features": {
       "en": [
         "AI product recommendations",
@@ -85,23 +99,32 @@
     "featured": true
   },
   {
-    "id": "weatherly",
-    "title": "Weatherly",
+    "id": "weather-lens",
+    "title": "Weather Lens",
     "shortDesc": {
       "en": "Beautiful weather app with 7-day forecast and location search",
       "id": "Aplikasi cuaca cantik dengan perkiraan 7 hari dan pencarian lokasi"
     },
     "description": {
-      "en": "Weatherly is a visually rich weather application that provides accurate forecasts, hourly breakdowns, and interactive weather maps. It uses the OpenWeatherMap API and features beautiful animated weather icons.",
-      "id": "Weatherly adalah aplikasi cuaca yang kaya visual yang menyediakan perkiraan akurat, rincian per jam, dan peta cuaca interaktif. Menggunakan API OpenWeatherMap dan menampilkan ikon cuaca animasi yang indah."
+      "en": "Weather Lens is a visually rich weather application that provides accurate forecasts, hourly breakdowns, and interactive weather maps. It uses the OpenWeatherMap API and features beautiful animated weather icons.",
+      "id": "Weather Lens adalah aplikasi cuaca yang kaya visual yang menyediakan perkiraan akurat, rincian per jam, dan peta cuaca interaktif. Menggunakan API OpenWeatherMap dan menampilkan ikon cuaca animasi yang indah."
     },
-    "category": ["Web App", "API"],
-    "thumbnail": "/assets/projects/weatherly-thumb.jpg",
-    "screenshots": [
-      "/assets/projects/weatherly-1.jpg",
-      "/assets/projects/weatherly-2.jpg"
+    "category": [
+      "Web App",
+      "API"
     ],
-    "technologies": ["React", "TypeScript", "Framer Motion", "OpenWeatherMap API", "Tailwind CSS"],
+    "thumbnail": "/assets/projects/wl.png",
+    "screenshots": [
+      "/assets/projects/wl.png",
+      "/assets/projects/wl_2.png"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Framer Motion",
+      "OpenWeatherMap API",
+      "Tailwind CSS"
+    ],
     "features": {
       "en": [
         "7-day weather forecast",
@@ -120,134 +143,10 @@
         "Tombol Celsius/Fahrenheit"
       ]
     },
-    "githubUrl": "https://github.com/aryankusuma/weatherly",
-    "demoUrl": "https://weatherly-app.netlify.app",
+    "githubUrl": "https://github.com/ardhanagusti/weather-lens",
+    "demoUrl": "https://ardhanagusti.github.io/weather-lens",
     "status": "completed",
     "year": 2022,
-    "featured": false
-  },
-  {
-    "id": "devnotes",
-    "title": "DevNotes",
-    "shortDesc": {
-      "en": "Developer-focused note-taking app with code snippet support",
-      "id": "Aplikasi catatan fokus developer dengan dukungan snippet kode"
-    },
-    "description": {
-      "en": "DevNotes is a note-taking application tailored for developers. It supports syntax-highlighted code snippets, markdown rendering, tag organization, and offline-first functionality via IndexedDB.",
-      "id": "DevNotes adalah aplikasi catatan yang dirancang khusus untuk developer. Mendukung snippet kode dengan highlight sintaks, rendering markdown, organisasi tag, dan fungsionalitas offline-first melalui IndexedDB."
-    },
-    "category": ["Web App", "Productivity"],
-    "thumbnail": "/assets/projects/devnotes-thumb.jpg",
-    "screenshots": [
-      "/assets/projects/devnotes-1.jpg"
-    ],
-    "technologies": ["React", "TypeScript", "IndexedDB", "Prism.js", "Markdown", "PWA"],
-    "features": {
-      "en": [
-        "Syntax-highlighted code snippets",
-        "Markdown rendering",
-        "Offline-first with PWA",
-        "Tag-based organization",
-        "Search across notes",
-        "Export to PDF/Markdown"
-      ],
-      "id": [
-        "Snippet kode dengan highlight sintaks",
-        "Rendering markdown",
-        "Offline-first dengan PWA",
-        "Organisasi berbasis tag",
-        "Pencarian di semua catatan",
-        "Ekspor ke PDF/Markdown"
-      ]
-    },
-    "githubUrl": "https://github.com/aryankusuma/devnotes",
-    "demoUrl": "https://devnotes-app.netlify.app",
-    "status": "completed",
-    "year": 2022,
-    "featured": false
-  },
-  {
-    "id": "chatbuddy",
-    "title": "ChatBuddy",
-    "shortDesc": {
-      "en": "Real-time chat application with rooms and file sharing",
-      "id": "Aplikasi chat real-time dengan ruangan dan berbagi file"
-    },
-    "description": {
-      "en": "ChatBuddy is a real-time messaging platform supporting public and private rooms, direct messages, file sharing, and emoji reactions. Built with Socket.io for instant message delivery.",
-      "id": "ChatBuddy adalah platform pesan real-time yang mendukung ruangan publik dan privat, pesan langsung, berbagi file, dan reaksi emoji. Dibangun dengan Socket.io untuk pengiriman pesan instan."
-    },
-    "category": ["Web App", "Full Stack"],
-    "thumbnail": "/assets/projects/chatbuddy-thumb.jpg",
-    "screenshots": [
-      "/assets/projects/chatbuddy-1.jpg",
-      "/assets/projects/chatbuddy-2.jpg"
-    ],
-    "technologies": ["React", "Node.js", "Socket.io", "MongoDB", "JWT", "Cloudinary"],
-    "features": {
-      "en": [
-        "Real-time messaging",
-        "Public and private rooms",
-        "File and image sharing",
-        "Emoji reactions",
-        "Message search",
-        "Online presence indicators"
-      ],
-      "id": [
-        "Pesan real-time",
-        "Ruangan publik dan privat",
-        "Berbagi file dan gambar",
-        "Reaksi emoji",
-        "Pencarian pesan",
-        "Indikator kehadiran online"
-      ]
-    },
-    "githubUrl": "https://github.com/aryankusuma/chatbuddy",
-    "demoUrl": "https://chatbuddy-live.netlify.app",
-    "status": "in-progress",
-    "year": 2024,
-    "featured": true
-  },
-  {
-    "id": "portfoliokit",
-    "title": "PortfolioKit",
-    "shortDesc": {
-      "en": "Open-source portfolio template for developers",
-      "id": "Template portofolio open-source untuk developer"
-    },
-    "description": {
-      "en": "PortfolioKit is a free, open-source portfolio template for developers. It's highly customizable, supports dark mode, multi-language, and is built with React and Tailwind CSS. 500+ GitHub stars.",
-      "id": "PortfolioKit adalah template portofolio gratis dan open-source untuk developer. Sangat dapat dikustomisasi, mendukung mode gelap, multi-bahasa, dan dibangun dengan React dan Tailwind CSS. 500+ bintang GitHub."
-    },
-    "category": ["Open Source", "Template"],
-    "thumbnail": "/assets/projects/portfoliokit-thumb.jpg",
-    "screenshots": [
-      "/assets/projects/portfoliokit-1.jpg"
-    ],
-    "technologies": ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "i18n"],
-    "features": {
-      "en": [
-        "Dark/Light mode",
-        "Multi-language support",
-        "Framer Motion animations",
-        "Responsive design",
-        "SEO optimized",
-        "Easy customization"
-      ],
-      "id": [
-        "Mode Gelap/Terang",
-        "Dukungan multi-bahasa",
-        "Animasi Framer Motion",
-        "Desain responsif",
-        "Dioptimalkan untuk SEO",
-        "Mudah dikustomisasi"
-      ]
-    },
-    "githubUrl": "https://github.com/aryankusuma/portfoliokit",
-    "demoUrl": "https://portfoliokit.vercel.app",
-    "status": "completed",
-    "year": 2023,
     "featured": false
   }
 ]

@@ -162,10 +162,12 @@ const Projects: React.FC = () => {
                         <GithubIcon size={14} />
                         {t('projects.view_code')}
                       </a>
-                      <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm" aria-label="Demo">
-                        <ExternalLink size={14} />
-                        {t('projects.view_demo')}
-                      </a>
+                      {project.demoUrl && (
+                        <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm" aria-label="Demo">
+                          <ExternalLink size={14} />
+                          {t('projects.view_demo')}
+                        </a>
+                      )}
                     </div>
                   </div>
                 </motion.div>

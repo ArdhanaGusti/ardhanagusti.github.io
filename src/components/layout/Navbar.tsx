@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
         <div className="container navbar__inner">
           <NavLink to="/" className="navbar__brand">
             <span className="navbar__logo">MA</span>
-            <span className="navbar__name">Ardhana<span className="navbar__name-accent">.</span></span>
+            <span className="navbar__name">Ardhana</span>
           </NavLink>
 
           <nav className="navbar__links" aria-label="Main navigation">
