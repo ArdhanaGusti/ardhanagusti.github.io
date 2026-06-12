@@ -120,9 +120,16 @@ const ProjectDetail: React.FC = () => {
                   </div>
                   <div className="detail__meta-item">
                     <span className="detail__meta-label">Status</span>
-                    <span className={`badge ${project.status === 'completed' ? 'badge-green' : 'badge-blue'}`}>
-                      {project.status === 'completed' ? t('projects.status_completed') : t('projects.status_in_progress')}
-                    </span>
+                    <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                      <span className={`badge ${project.status === 'completed' ? 'badge-green' : 'badge-blue'}`}>
+                        {project.status === 'completed' ? t('projects.status_completed') : t('projects.status_in_progress')}
+                      </span>
+                      {project.private && (
+                        <span className="badge badge-rose">
+                          {t('common.private')}
+                        </span>
+                      )}
+                    </div>
                   </div>
                   <div className="detail__meta-item">
                     <span className="detail__meta-label">Categories</span>
@@ -135,10 +142,12 @@ const ProjectDetail: React.FC = () => {
                 </div>
 
                 <div className="detail__links">
-                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ flex: 1 }}>
-                    <GithubIcon size={16} />
-                    {t('projects.view_code')}
-                  </a>
+                  {project.githubUrl && (
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ flex: 1 }}>
+                      <GithubIcon size={16} />
+                      {t('projects.view_code')}
+                    </a>
+                  )}
                   {project.demoUrl && (
                     <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ flex: 1 }}>
                       <ExternalLink size={16} />

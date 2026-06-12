@@ -43,7 +43,51 @@
     "demoUrl": null,
     "status": "completed",
     "year": 2024,
-    "featured": false
+    "featured": false,
+    "private": false
+  },{
+    "id": "batur-app",
+    "title": "Batur App",
+    "shortDesc": {
+      "en": "Tourist guide app for bandung with maps and recommendations",
+      "id": "Aplikasi panduan wisata untuk Bandung dengan peta dan rekomendasi"
+    },
+    "description": {
+      "en": "Batur App is a tourist guide application for Bandung, providing maps, recommendations, and travel tips. Built to enhance the travel experience with real-time information.",
+      "id": "Batur App adalah aplikasi panduan wisata untuk Bandung, menyediakan peta, rekomendasi, dan tips perjalanan. Dibangun untuk meningkatkan pengalaman wisata dengan informasi real-time."
+    },
+    "category": [
+      "Mobile App",
+      "Full Stack"
+    ],
+    "thumbnail": "/assets/projects/batur.png",
+    "screenshots": [
+      "/assets/projects/batur_1.png",
+      "/assets/projects/batur_2.webp",
+      "/assets/projects/batur_3.png"
+    ],
+    "technologies": [
+      "Flutter",
+      "Firebase",
+      "Google Maps",
+      "OAuth"
+    ],
+    "features": {
+      "en": [
+        "Multiple login options (Google, Facebook, Twitter)",
+        "Lot of references for tourist place in Bandung"
+      ],
+      "id": [
+        "Banyak pilihan login (Google, Facebook, Twitter)",
+        "Banyak referensi tempat wisata di Bandung"
+      ]
+    },
+    "githubUrl": "https://github.com/ardhanagusti/batur-app",
+    "demoUrl": null,
+    "status": "completed",
+    "year": 2023,
+    "featured": false,
+    "private": false
   },
   {
     "id": "school-management-system",
@@ -92,11 +136,12 @@
         "Dioptimalkan untuk SEO"
       ]
     },
-    "githubUrl": "https://github.com/aryankusuma/shopwave",
-    "demoUrl": "https://shopwave-demo.vercel.app",
+    "githubUrl": null,
+    "demoUrl": null,
     "status": "completed",
     "year": 2023,
-    "featured": true
+    "featured": true,
+    "private": true
   },
   {
     "id": "weather-lens",
@@ -147,6 +192,7 @@
     "demoUrl": "https://ardhanagusti.github.io/weather-lens",
     "status": "completed",
     "year": 2022,
-    "featured": false
+    "featured": false,
+    "private": false
   }
 ]

@@ -13,9 +13,9 @@ import './styles/Projects.css';
 const projects = projectsData as Project[];
 
 const statusColorMap: Record<string, string> = {
-  completed: 'badge-green',
+  'completed': 'badge-green',
   'in-progress': 'badge-blue',
-  archived: 'badge-muted',
+  'archived': 'badge-muted',
 };
 
 const Projects: React.FC = () => {
@@ -133,12 +133,17 @@ const Projects: React.FC = () => {
                         <span className={`badge ${statusColorMap[project.status]}`}>
                           {statusLabel(project.status)}
                         </span>
-                        {project.featured && (
+                        {project.private && (
+                          <span className="badge badge-rose">
+                            {t('common.private')}
+                          </span>
+                        )}
+                        {/* {project.featured && (
                           <span className="badge badge-accent">
                             <Star size={10} style={{ marginRight: 3 }} />
                             {t('common.featured')}
                           </span>
-                        )}
+                        )} */}
                       </div>
                       <span className="project-card__year">{project.year}</span>
                     </div>
@@ -158,10 +163,12 @@ const Projects: React.FC = () => {
                     </div>
 
                     <div className="project-card__links">
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm" aria-label="GitHub">
-                        <GithubIcon size={14} />
-                        {t('projects.view_code')}
-                      </a>
+                      {project.githubUrl && (
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm" aria-label="GitHub">
+                          <GithubIcon size={14} />
+                          {t('projects.view_code')}
+                        </a>
+                      )}
                       {project.demoUrl && (
                         <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm" aria-label="Demo">
                           <ExternalLink size={14} />

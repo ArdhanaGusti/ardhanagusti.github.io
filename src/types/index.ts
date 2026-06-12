@@ -85,6 +85,7 @@ export interface Project {
   status: 'completed' | 'in-progress' | 'archived';
   year: number;
   featured: boolean;
+  private: boolean;
 }
 
 export type Theme = 'light' | 'dark';
